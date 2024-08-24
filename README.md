@@ -23,8 +23,12 @@ Tasks are added to a Bull queue and processed asynchronously by a worker. The wo
 1. Install dependencies:
    ```bash
    npm install
-2. Start the server:node server.js
-3. Start the worker:node worker.js
+2. Start the server:
+   ```bash
+   node server.js
+3. Start the worker:
+   ```bash
+   node worker.js
 4. Test the rate limiting and task queueing by sending POST requests to the API endpoint /api/v1/task.
 
 
