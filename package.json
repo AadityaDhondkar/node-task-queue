@@ -1,0 +1,15 @@
+{
+  "name": "task-queue-example",
+  "version": "1.0.0",
+  "description": "Example of task queue using Express, Bull, and Redis",
+  "main": "server.js",
+  "scripts": {
+    "start:server": "node server.js",
+    "start:worker": "node worker.js"
+  },
+  "dependencies": {
+    "bull": "^4.0.2",
+    "express": "^4.18.2",
+    "redis": "^4.6.5"
+  }
+}
